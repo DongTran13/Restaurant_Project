@@ -20,7 +20,11 @@
     <a class="navbar-brand" href="index.php">Restaurant</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <div class="menu-icon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container">
@@ -161,6 +165,7 @@
         </div>
     </form>
 </div>
+<!-- boook tablle-->
 <script>
     var modal = document.getElementById('bookTableForm');
     window.onclick = function (event) {
@@ -168,12 +173,17 @@
             modal.style.display = "none";
         }
     }
-</script>
-<script>
     function openBookingTableForm() {
         document.getElementById("bookTableForm").style.display = "block";
     }
 </script>
+<!--icon-menu-->
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+<!--oder-->
 <script>
     function openOrderWeb() {
         window.location = "order.php";
