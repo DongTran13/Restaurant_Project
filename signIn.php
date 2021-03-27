@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
+    <?php include("checked.php")?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -21,10 +22,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu-icon" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container">
@@ -57,12 +58,6 @@
 
     </div>
 </nav>
-
-
-
-
-
-
 <!-- Form bool table float -->
 <div id="bookTableForm" class="modal">
     <form class="form animate container bg-light" action="#" method="post">
@@ -124,6 +119,17 @@
         x.classList.toggle("change");
     }
 </script>
+<!-- main -->
+
+
+<div class="container">
+        <div class="form-control">
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
+                    <h1>Sign In</h1>
+            </form>
+        </div>
+
+</div>
 
 <!-- Footer -->
 <div class="row">

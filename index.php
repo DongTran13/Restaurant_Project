@@ -50,8 +50,11 @@
                 </li>
             </ul>
         </div>
-        <button class="btn btn-outline-success mr-2" onclick="openOrderWeb()">ORDER</button>
+
         <button class="btn btn-outline-success" type="button" onclick="openBookingTableForm()">BOOK TABLE</button>
+        <button class="btn btn-outline-success mr-2 ml-2" onclick="openSignInWeb()">Sign In</button>
+        <button class="btn btn-outline-secondary mr-2" onclick="openSignUpWeb()">Sign Up</button>
+
     </div>
 </nav>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -129,6 +132,7 @@
         </div>
     </div>
 </div>
+<!-- Form bool table float -->
 <div id="bookTableForm" class="modal">
     <form class="form animate container bg-light" action="#" method="post">
         <div class="row mt-5">
@@ -176,20 +180,20 @@
     function openBookingTableForm() {
         document.getElementById("bookTableForm").style.display = "block";
     }
-</script>
-<!--icon-menu-->
-<script>
+    <!--icon-menu-->
+    function openSignInWeb() {
+        window.location = "signIn.php";
+
+    }
+    function openSignUpWeb() {
+        window.location = "signUp.php";
+
+    }
     function myFunction(x) {
         x.classList.toggle("change");
     }
 </script>
-<!--oder-->
-<script>
-    function openOrderWeb() {
-        window.location = "order.php";
 
-    }
-</script>
 <!-- Footer -->
 <div class="row">
     <div class="col bg-dark">
