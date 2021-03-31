@@ -1,3 +1,4 @@
+<?php require('config.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <?php require ('config.php')?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -109,7 +109,6 @@
     <!--icon-menu-->
     function openSignInWeb() {
         window.location = "signIn.php";
-
     }
     function openSignUpWeb() {
         window.location = "signUp.php";
@@ -121,94 +120,50 @@
 </script>
 <!-- main -->
 <?php
-    if(isset($_POST['save'])){
-        $name = mysqli_real_escape_string($conn, $_POST["username"]);
-        $telephone = mysqli_real_escape_string($conn, $_POST["telephone"]);
-        $password = mysqli_real_escape_string($conn, $_POST["password"]);
+if (isset($_POST['save'])) {
+    $name = mysqli_real_escape_string($conn, $_POST["username"]);
+    $password = mysqli_real_escape_string($conn, $_POST["password"]);
+    $rePassword = mysqli_real_escape_string($conn, $_POST["rePassword"]);
+    $telephone = mysqli_real_escape_string($conn, $_POST["telephone"]);
 
 
-        if (empty($name)){
-            $nameErro = "Please enter your name!!";
-        }else{
-            $sql = "SELECT id FROM customer WHERE username = ?";
-            if ($stmt = mysqli_prepare($conn, $sql)){
-                mysqli_stmt_bind_param($stmt, "s", $param_username);
-
-                $param_username = trim($_POST['username']);
-
-
-                if (mysqli_stmt_execute($stmt)){
-
-                    mysqli_store_result($stmt);
-                    if (mysqli_stmt_num_rows($stmt == 1)){
-                        $nameErro = "This username is already taken.";
-                    }else{
-                        $username = trim($_POST['username']);
-                    }
-                }else{
-                    echo "Oops! Something went wrong. Please try again late.";
-                }
-            }
-            mysqli_close($conn);
+    if (empty(trim($name))) {
+        $nameErro = "Please enter your name!";
+    } else {
+        $sql = "SELECT username FROM customer WHERE username = '$name'";
+        $result = mysqli_query($conn, $sql);
+        if (mysqli_num_rows($result) > 0) {
+            $nameErro = "This user name already taken";
         }
-
-        if (empty(trim($password))){
-            $passwordErro = "Please enter your password!";
-        }elseif(strlen(trim($password))<6){
-            $passwordErro = "Your password have at least 6 characters.";
-        }else{
-            $password = trim($password);
+    }
+    if (empty(trim($password))) {
+        $passwordErro = "Please enter your password!";
+    } elseif (strlen(trim($password)) < 6) {
+        $passwordErro = "Your password have at least 6 characters.";
+    } else {
+        $password = md5(trim($password));
+    }
+    if (empty(trim($_POST['rePassword']))) {
+        $rePasswordErro = "Please enter your password";
+    } else {
+        $rePassword = trim($_POST['rePassword']);
+        if (empty($rePassword) && ($password != $rePassword)) {
+            $rePasswordErro = "Password did not match! Please try again!";
         }
-
-        if (empty(trim($_POST['rePassword']))){
-            $rePasswordErro = "Please enter your password";
-        }else{
-            $rePassword = trim($_POST['rePassword']);
-            if (empty($rePassword) && ($password != $rePassword)){
-                $rePasswordErro = "Password did not match! Please try again!";
-
-            }
-        }
-
-        if (empty($telephone)){
-            $telErro ="Please enter your telephone!";
-        }
-
-
-        if (empty($nameErro) && empty($telErro) && empty($passwordErro) && empty($rePasswordErro)){
-            $sql = "INSERT INTO customer (username, password) VALUE (?, ?)";
-
-            if($stmt = mysqli_prepare($conn, $sql)){
-                mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
-
-
-                $param_username = $username;
-                $param_password = password_hash($password, PASSWORD_DEFAULT);
-
-                if (mysqli_stmt_execute($stmt)){
-                    header("location: signIn.php");
-                }else{
-                    echo "Oops! Something went wrong. Please try again later.";
-                }
-                mysqli_stmt_close($stmt);
-
-            }
-
-
-
-        }
-        mysqli_close($conn);
+    }
+    if (empty($telephone)) {
+        $telErro = "Please enter your telephone!";
+    }
+    if (empty($telErro) && empty($passwordErro) && empty($rePasswordErro) && empty($nameErro)) {
+        $sql = "INSERT INTO `customer`(`username`, `pass`, `telephone`) VALUES ($name, $password,$telephone)";
+        mysqli_query($conn, $sql);
 
     }
+}
 ?>
-
-
-
-
-
 <div class="container">
     <div class="form-control">
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>">
             <h1>Sign up</h1>
             <label>Username: </label>
             <input class="form-group" type="text" name="username" placeholder="Username">
@@ -221,34 +176,14 @@
             <span class="text-danger"><?php if (isset($passwordErro)) echo $passwordErro ?></span><br>
             <label>Confim password: </label>
             <input class="form-group" type="password" name="rePassword" placeholder="Confim password">
-            <span class="text-danger"><?php if (isset($rePasswordErro))  echo $rePasswordErro ?></span><br>
+            <span class="text-danger"><?php if (isset($rePasswordErro)) echo $rePasswordErro ?></span><br>
             <input type="submit" name="save" class="bg-primary text-white" value="Registration"><br>
             <p>Do you already have an account? <a href="signIn.php">Click here!</a></p>
         </form>
     </div>
-
 </div>
 
 <!-- Footer -->
-<div class="row">
-    <div class="col bg-dark">
-        <div class="container text-white">
-            <div class="row">
-                <div class="col">
-                    <div class="text-center">
-                        <img class="w-25 m-5" src="img/logo.png">
-                        <div class="row">
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-
-</div>
 </body>
 </html>

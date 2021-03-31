@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
@@ -52,8 +53,6 @@
         </div>
 
         <button class="btn btn-outline-success" type="button" onclick="openBookingTableForm()">BOOK TABLE</button>
-        <button class="btn btn-outline-success mr-2 ml-2" onclick="openSignInWeb()">Sign In</button>
-        <button class="btn btn-outline-secondary mr-2" onclick="openSignUpWeb()">Sign Up</button>
 
     </div>
 </nav>
@@ -181,39 +180,77 @@
         document.getElementById("bookTableForm").style.display = "block";
     }
     <!--icon-menu-->
-    function openSignInWeb() {
-        window.location = "signIn.php";
-
-    }
-    function openSignUpWeb() {
-        window.location = "signUp.php";
-
-    }
     function myFunction(x) {
         x.classList.toggle("change");
     }
 </script>
 
 <!-- Footer -->
-<div class="row">
-    <div class="col bg-dark">
-        <div class="container text-white">
-            <div class="row">
-                <div class="col">
-                    <div class="text-center">
-                        <img class="w-25 m-5" src="img/logo.png">
-                        <div class="row">
-                        </div>
-
+<footer class="bg-dark">
+    <div class="container">
+        <div class="row p-3">
+            <div class="col text-center">
+                <img src="img/logo.png" class="lg-footer">
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-white">Thuê vị trí bài viết Toplist - Đăng bài PR, Review, Guest Post - Đặt Banner quảng cáo Hotline: 090 561 9623 Mail: account@addo.vn</p>
+                <p class="text-white">Contact US: apolo@gmail.com </p>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>  
+            </div>
+            <div class="col">
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#"><h5 class="text-white">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#" class="hover-lik"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
             </div>
-
-
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
+                <h2 class="text-white">MULTI-VIEW ITEM</h2>            
+                    <a href="">
+                        <div class="row">
+                            <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
+                            <div class="col-6"><h5 class="text-white">130</h5></div>
+                        </div>     
+                     </a>
+                </div>
+            </div>
         </div>
-
+        <div class="row">
+            <div class="col-12">
+                <hr class="light-100">
+                <h5 class="text-center text-white">&copy; COPPPYRIGHT VNUHCM-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
+            </div>
+        </div>
+    </div>
     </div>
 
-</div>
+</footer>
 </body>
 </html>

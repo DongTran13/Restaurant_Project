@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <?php include("checked.php")?>
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -123,34 +123,11 @@
 
 
 <div class="container">
-        <div class="form-control">
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
-                    <h1>Sign In</h1>
-            </form>
-        </div>
+
 
 </div>
 
 <!-- Footer -->
-<div class="row">
-    <div class="col bg-dark">
-        <div class="container text-white">
-            <div class="row">
-                <div class="col">
-                    <div class="text-center">
-                        <img class="w-25 m-5" src="img/logo.png">
-                        <div class="row">
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-
-</div>
 </body>
 </html>

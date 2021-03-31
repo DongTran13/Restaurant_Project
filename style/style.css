@@ -89,7 +89,9 @@ body{
     opacity: 0.6;
     cursor: pointer;
 }
-a:link{
-  text-decoration: none;
-  
+.logo-end{
+    width: 10%;
+}
+.lg-footer{
+  width: 20%;
 }
