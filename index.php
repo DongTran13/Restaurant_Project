@@ -159,7 +159,7 @@
                 </div>  
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <div class="row">
+                <div class="row pb-3">
                     <div class="col-4">
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
@@ -167,7 +167,7 @@
                         <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row pb-3">
                     <div class="col-4">
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
