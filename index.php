@@ -197,7 +197,7 @@
         <div class="row">
             <div class="col-12">
                 <hr class="light-100">
-                <h5 class="text-center text-white">&copy; COPPPYRIGHT VNUHCM-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
+                <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
             </div>
         </div>
     </div>
