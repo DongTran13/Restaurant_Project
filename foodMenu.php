@@ -7,32 +7,27 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style/foodMenu.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Restaurant</title>
+    <?php require_once ('check.php')?>
 </head>
 <body>
-    <!--navabar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="index.php"> <img class="logo" src="img/logo.png"></a>
     <a class="navbar-brand" href="index.php">Restaurant</a>
-    <!--icon-menu-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu-icon" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </button>
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-    }
-    </script>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="container">
             <ul class="navbar-nav mr-auto">
@@ -57,10 +52,10 @@
                 </li>
             </ul>
         </div>
-        <button class="btn btn-outline-success mr-2" onclick="openOrderWeb()">ORDER</button>
-        <button class="btn btn-outline-success" type="button" onclick="openBookingTableForm()">BOOK TABLE</button>
+        <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
+
 <!-- boook tablle-->
 <div id="bookTableForm" class="modal">
     <form class="form animate container bg-light" action="#" method="post">
