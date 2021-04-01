@@ -143,13 +143,14 @@
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
-                <img src="img/logo.png" class="lg-footer">
+                
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <p class="text-white">Thuê vị trí bài viết Toplist - Đăng bài PR, Review, Guest Post - Đặt Banner quảng cáo Hotline: 090 561 9623 Mail: account@addo.vn</p>
-                <p class="text-white">Contact US: apolo@gmail.com </p>
+                <img src="img/logo.png" class="lg-footer">
+                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
+                <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
                     <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
                     <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>
@@ -158,7 +159,7 @@
                 </div>  
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <div class="row pb-3">
+                <div class="row">
                     <div class="col-4">
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
@@ -166,7 +167,7 @@
                         <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
-                <div class="row pb-3">
+                <div class="row ">
                     <div class="col-4">
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
