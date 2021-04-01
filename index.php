@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
+    <?php require_once ('check.php')?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -51,9 +52,7 @@
                 </li>
             </ul>
         </div>
-
-        <button class="btn btn-outline-success" type="button" onclick="openBookingTableForm()">BOOK TABLE</button>
-
+        <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -131,60 +130,14 @@
         </div>
     </div>
 </div>
-<!-- Form bool table float -->
-<div id="bookTableForm" class="modal">
-    <form class="form animate container bg-light" action="#" method="post">
-        <div class="row mt-5">
-            <div class="col-12">
-                <h1 class="text-center mt-3">BOOK TABLE</h1>
-            </div>
-        </div>
-        <div class="row ml-5 mr-5">
-            <div class="col-5 m-3">
-                <input type="text" placeholder="Name*" required class="form-control">
-                <input type="date" required class="form-control mt-3">
-                <input type="text" placeholder="Seat" class="form-control mt-3">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5 ml-3 mt-3 mb-3">
-                <input type="tel" required class="form-control" placeholder="PHONE*">
-                <input type="time" class="form-control mt-3">
-                <input type="email" required class="form-control mt-3" placeholder="EMAIL*">
-            </div>
-        </div>
-        <div class="row mt-3 ml-3 mr-5">
-            <div class="col-12">
-                <textarea name="note" placeholder="NOTE*" class="form-control w-100" cols="25" rows="5"></textarea>
-            </div>
-        </div>
-        <div class="row text-center mt-3 mb-3">
-            <div class="col-12">
-                <button class="btn btn-success ">RESERVE</button>
-            </div>
 
-        </div>
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </form>
-</div>
-<!-- boook tablle-->
+
 <script>
-    var modal = document.getElementById('bookTableForm');
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-    function openBookingTableForm() {
-        document.getElementById("bookTableForm").style.display = "block";
-    }
     <!--icon-menu-->
     function myFunction(x) {
         x.classList.toggle("change");
     }
 </script>
-
 <!-- Footer -->
 <footer class="bg-dark">
     <div class="container">
@@ -192,26 +145,25 @@
             <div class="col text-center">
                 <img src="img/logo.png" class="lg-footer">
             </div>
-            
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <p class="text-white">Thuê vị trí bài viết Toplist - Đăng bài PR, Review, Guest Post - Đặt Banner quảng cáo Hotline: 090 561 9623 Mail: account@addo.vn</p>
                 <p class="text-white">Contact US: apolo@gmail.com </p>
                 <div class="col-12 social padding">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
                 </div>  
             </div>
-            <div class="col">
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <div class="row pb-3">
                     <div class="col-4">
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -219,7 +171,7 @@
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
+                        <a href="#"><h5>OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -227,7 +179,7 @@
                         <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#" class="hover-lik"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
             </div>
@@ -250,7 +202,6 @@
         </div>
     </div>
     </div>
-
 </footer>
 </body>
 </html>
