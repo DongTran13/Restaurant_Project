@@ -64,26 +64,26 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner ">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-w-h-fix" src="img/foodMenu/bg-img/img1.jpg" alt="First slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>FOOD MENU</h1>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/foodMenu/bg-img/img2.jpg" alt="Second slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>FOOD MENU</h1>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/foodMenu/bg-img/img3.jpg" alt="Third slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img3.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>FOOD MENU</h1>
             </div>
         </div>
     </div>
     <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/foodMenu/bg-img/img4.jpg" alt="Forth slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img4.jpg" alt="Forth slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>FOOD MENU</h1>
             </div>
@@ -120,7 +120,7 @@
                 <div class="food">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/ca-hoi.png">
+                            <img src="../img/foodMenu/food/Sea_Food/ca-hoi.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Salmon</h6>
@@ -129,7 +129,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/dieu-hong-ca-chep-song.png">
+                            <img src="../img/foodMenu/food/Sea_Food/dieu-hong-ca-chep-song.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>River Carp</h6>
@@ -138,7 +138,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/ca-chep-gion.png">
+                            <img src="../img/foodMenu/food/Sea_Food/ca-chep-gion.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Crispy carp</h6>
@@ -147,7 +147,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/Cua-Ghe.png">
+                            <img src="../img/foodMenu/food/Sea_Food/Cua-Ghe.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Crab</h6>
@@ -156,7 +156,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/ngao-so.png">
+                            <img src="../img/foodMenu/food/Sea_Food/ngao-so.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Clams</h6>
@@ -165,7 +165,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Sea_Food/tom-hum.png">
+                            <img src="../img/foodMenu/food/Sea_Food/tom-hum.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Lobster</h6>
@@ -194,7 +194,7 @@
                 <div class="food">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-hong-kong.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-hong-kong.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Hong Kong Hotpot</h6>
@@ -203,7 +203,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-ga-chua-cay.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-ga-chua-cay.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Chicken Hotpot</h6>
@@ -212,7 +212,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-ca-chep.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-ca-chep.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Carp Hotpot</h6>
@@ -221,7 +221,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-son-sun.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-son-sun.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Rib Cartilage Hotpot</h6>
@@ -230,7 +230,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-thai.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-thai.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Thai HotPot</h6>
@@ -239,7 +239,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Hot_Pot/lau-hai-san.png">
+                            <img src="../img/foodMenu/food/Hot_Pot/lau-hai-san.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Sea Hotpot</h6>
@@ -271,7 +271,7 @@
                 <div class="food">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/ca-muoi.jpg">
+                            <img src="../img/foodMenu/food/Rice/ca-muoi.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Salty Berries</h6>
@@ -280,7 +280,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/canh-chua-ngao.jpg">
+                            <img src="../img/foodMenu/food/Rice/canh-chua-ngao.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Clam Sour Soup</h6>
@@ -289,7 +289,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/canh-chua-thit.jpg">
+                            <img src="../img/foodMenu/food/Rice/canh-chua-thit.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Clam Meat Soup</h6>
@@ -298,7 +298,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/Com-gao-tam-thom.jpg">
+                            <img src="../img/foodMenu/food/Rice/Com-gao-tam-thom.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Rice</h6>
@@ -307,7 +307,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/thit-bam-mam-tep.jpg">
+                            <img src="../img/foodMenu/food/Rice/thit-bam-mam-tep.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Minced Meat</h6>
@@ -316,7 +316,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Rice/trung-ducthit.jpg">
+                            <img src="../img/foodMenu/food/Rice/trung-ducthit.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Meat Molded Eggs</h6>
@@ -345,7 +345,7 @@
                 <div class="food">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/Bo-hap-tuong-gung.jpg">
+                            <img src="../img/foodMenu/food/Beef/Bo-hap-tuong-gung.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Steamed Beef</h6>
@@ -354,7 +354,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/bo-nuong.jpg">
+                            <img src="../img/foodMenu/food/Beef/bo-nuong.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Grilled Beef</h6>
@@ -363,7 +363,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/Bo-tai-chanh.jpg">
+                            <img src="../img/foodMenu/food/Beef/Bo-tai-chanh.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Undercooked Beef</h6>
@@ -372,7 +372,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/Bo-xao-lan-can-toi.jpg">
+                            <img src="../img/foodMenu/food/Beef/Bo-xao-lan-can-toi.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Fried Beef</h6>
@@ -381,7 +381,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/duoi-bo-chat.jpg">
+                            <img src="../img/foodMenu/food/Beef/duoi-bo-chat.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Cow's Tail Chop
@@ -391,7 +391,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/foodMenu/food/Beef/lau-gau-bo.jpg">
+                            <img src="../img/foodMenu/food/Beef/lau-gau-bo.jpg">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Beef Tendon Hotpot</h6>

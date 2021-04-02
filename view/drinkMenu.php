@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="bs/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style/drinkMenu.css">
+    <link rel="shortcut icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../bs/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <?php require_once ('check.php')?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="index.php"> <img class="logo" src="img/logo.png"></a>
+    <a class="navbar-brand" href="index.php"> <img class="logo" src="../img/logo.png"></a>
     <a class="navbar-brand" href="index.php">Restaurant</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,14 +40,14 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="drinkMenu.php">Drink</a>
-                        <a class="dropdown-item" href="drinkMenu.php">drink</a>
+                        <a class="dropdown-item" href="foodMenu.php">Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -56,54 +55,6 @@
     </div>
 </nav>
 
-<!-- boook tablle-->
-<div id="bookTableForm" class="modal">
-    <form class="form animate container bg-light" action="#" method="post">
-        <div class="row mt-5">
-            <div class="col-12">
-                <h1 class="text-center mt-3">BOOK TABLE</h1>
-            </div>
-        </div>
-        <div class="row ml-5 mr-5">
-            <div class="col-5 m-3">
-                <input type="text" placeholder="Name*" required class="form-control">
-                <input type="date" required class="form-control mt-3">
-                <input type="text" placeholder="Seat" class="form-control mt-3">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-5 ml-3 mt-3 mb-3">
-                <input type="tel" required class="form-control" placeholder="PHONE*">
-                <input type="time" class="form-control mt-3">
-                <input type="email" required class="form-control mt-3" placeholder="EMAIL*">
-            </div>
-        </div>
-        <div class="row mt-3 ml-3 mr-5">
-            <div class="col-12">
-                <textarea name="note" placeholder="NOTE*" class="form-control w-100" cols="25" rows="5"></textarea>
-            </div>
-        </div>
-        <div class="row text-center mt-3 mb-3">
-            <div class="col-12">
-                <button class="btn btn-success ">RESERVE</button>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </form>
-</div>
-<script>
-    var modal = document.getElementById('bookTableForm');
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-    function openBookingTableForm() {
-        document.getElementById("bookTableForm").style.display = "block";
-    }
-</script>
 
 <!--oder-->
 <script>
@@ -162,7 +113,7 @@
                 <div class="drink">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/asahi.png">
+                            <img src="../img/drinkMenu/drink/Beer/asahi.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Asahi Super Dry</h6>
@@ -171,7 +122,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/budweiser.png">
+                            <img src="../img/drinkMenu/drink/Beer/budweiser.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Budweiser</h6>
@@ -180,7 +131,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/corona.png">
+                            <img src="../img/drinkMenu/drink/Beer/corona.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Corona Extra</h6>
@@ -189,7 +140,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/heineken.png">
+                            <img src="../img/drinkMenu/drink/Beer/heineken.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Crab</h6>
@@ -198,7 +149,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/miller.png">
+                            <img src="../img/drinkMenu/drink/Beer/miller.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Miller Lite</h6>
@@ -207,7 +158,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Beer/sapporo.png">
+                            <img src="../img/drinkMenu/drink/Beer/sapporo.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Sapporo</h6>
@@ -236,7 +187,7 @@
                 <div class="drink">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Chivas-Regal.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Chivas-Regal.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Chivas Regal</h6>
@@ -245,7 +196,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Glenfiddich.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Glenfiddich.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Glenfiddich</h6>
@@ -254,7 +205,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Hennessy.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Hennessy.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Hennessy</h6>
@@ -263,7 +214,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Johnnie-Walker-.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Johnnie-Walker-.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Johnnie Walker</h6>
@@ -272,7 +223,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Macallan.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Macallan.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Macallan</h6>
@@ -281,7 +232,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Alcohol/Remy-Martin.png">
+                            <img src="../img/drinkMenu/drink/Alcohol/Remy-Martin.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Remy Martin</h6>
@@ -313,7 +264,7 @@
                 <div class="drink">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/cocacola.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/cocacola.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Coca Cola</h6>
@@ -322,7 +273,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/cocacola-high.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/cocacola-high.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Coca Cola light</h6>
@@ -331,7 +282,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/dasani.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/dasani.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Dasani</h6>
@@ -340,7 +291,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/soda.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/soda.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Soda</h6>
@@ -349,7 +300,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/sprite.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/sprite.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Sprite</h6>
@@ -358,7 +309,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Soft-drink/moster.png">
+                            <img src="../img/drinkMenu/drink/Soft-drink/moster.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Moster</h6>
@@ -387,7 +338,7 @@
                 <div class="drink">
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/carrot-juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/carrot-juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Carrot Juice</h6>
@@ -396,7 +347,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/guava-juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/guava-juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Guava Juice</h6>
@@ -405,7 +356,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/orange-juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/orange-juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Orange Juice</h6>
@@ -414,7 +365,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/pineapple-juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/pineapple-juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Pineapple Juice</h6>
@@ -423,7 +374,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/watermelon-juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/watermelon-juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Watermelon Juice</h6>
@@ -432,7 +383,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="img/drinkMenu/drink/Juice/Passion-Fruit-Juice.png">
+                            <img src="../img/drinkMenu/drink/Juice/Passion-Fruit-Juice.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>Passion Fruit Juice</h6>
