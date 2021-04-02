@@ -1,5 +1,5 @@
 <?php
-require('config.php');
+require('../model/config.php');
 if(isset($_POST["save"])){
     $name = mysqli_real_escape_string($conn, $_POST["username"]);
     $day = mysqli_real_escape_string($conn, $_POST["day"]);
@@ -11,7 +11,7 @@ if(isset($_POST["save"])){
     $sql = "INSERT INTO `information`(`name`, `day`, `telephone`, `hour`, `email`) VALUES ('$name','$day','$telephone','$time','$email')";
 
     if ($conn ->query($sql)){
-        header('location:index.php');
+        header('location:../view/index.php');
     }
 }
 ?>

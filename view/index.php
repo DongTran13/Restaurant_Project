@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="bs/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../bs/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -17,7 +17,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="index.php"> <img class="logo" src="img/logo.png"></a>
+    <a class="navbar-brand" href="index.php"> <img class="logo" src="../img/logo.png"></a>
     <a class="navbar-brand" href="index.php">Restaurant</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                     <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -57,7 +57,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-w-h-fix" src="img/bg_img/Untitled-3.png" alt="First slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/bg_img/Untitled-3.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>RESTAURANT</h1>
                 <p>TASTY AND CRUNCHY</p>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/bg_img/Untitled-1.png" alt="Second slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/bg_img/Untitled-1.png" alt="Second slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>ENJOYABLE</h1>
                 <p>WINE AND DINE</p>
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/bg_img/Untitled-2.png" alt="Third slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/bg_img/Untitled-2.png" alt="Third slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>DELICIOUS</h1>
                 <p>CRISPY AND SOFT</p>
@@ -100,13 +100,13 @@
             a vero distinctio quam atque.</p>
         <div class="row">
             <div class="col-6">
-                <img class="small-img-set" src="img/photo-1414235077428-338989a2e8c0.jpg" alt="">
+                <img class="small-img-set" src="../img/photo-1414235077428-338989a2e8c0.jpg" alt="">
             </div>
             <div class="col-6">
-                <img class="small-img-set" src="img/photo-1464195643332-1f236b1c2255.jpg" alt="">
+                <img class="small-img-set" src="../img/photo-1464195643332-1f236b1c2255.jpg" alt="">
             </div>
             <div class="col-12 text-center">
-                <img class="sign" src="img/screenshotAtUploadCS_1616248159241.png" alt="">
+                <img class="sign" src="../img/screenshotAtUploadCS_1616248159241.png" alt="">
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
                 <button class="btn btn-outline-dark mb-5">VIEW OUR MENU</button>
             </div>
             <div class="col-6">
-                <img class="pt-5 small-img-set" src="img/home1-main-image-4.jpg" alt="">
+                <img class="pt-5 small-img-set" src="../img/home1-main-image-4.jpg" alt="">
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <img src="img/logo.png" class="lg-footer">
+                <img src="../img/logo.png" class="lg-footer">
                 <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
                 <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
@@ -160,7 +160,7 @@
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <div class="row pb-3">
                     <div class="col-4">
-                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
                         <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
@@ -168,7 +168,7 @@
                 </div>
                 <div class="row pb-3">
                     <div class="col-4">
-                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
                         <a href="#"><h5>OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
@@ -176,7 +176,7 @@
                 </div>
                 <div class="row pb-3">
                     <div class="col-4">
-                        <img src="img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
                         <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
