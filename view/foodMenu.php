@@ -66,26 +66,22 @@
         <div class="carousel-item active">
             <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
-                <h1>FOOD MENU</h1>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
-                <h1>FOOD MENU</h1>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img3.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
-                <h1>FOOD MENU</h1>
             </div>
         </div>
     </div>
     <div class="carousel-item">
             <img class="d-block w-100 img-w-h-fix" src="../img/foodMenu/bg-img/img4.jpg" alt="Forth slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
-                <h1>FOOD MENU</h1>
             </div>
         </div>
     </div>
@@ -129,7 +125,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 text-left">
-                            <img src="../img/foodMenu/food/Sea_Food/dieu-hong-ca-chep-song.png">
+                            <img src="../img/foodMenu/food/Sea_Food/ca-chep.png">
                         </div>
                         <div class="col-8 text-right">
                             <h6>River Carp</h6>
@@ -413,7 +409,9 @@
             <a href="foodMenu.php">
                <button class="btn btn-lg btn-outline-success">Food Menu</button> 
             </a>
-            <button class="btn btn-lg btn-outline-success">Drink Menu</button>
+            <a href="drinkMenu.php">
+                <button class="btn btn-lg btn-outline-success">Drink Menu</button>
+            </a>           
         </div> 
     </div>
 </div>
