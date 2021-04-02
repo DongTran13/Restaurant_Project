@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "book_tablee";
+$database = "book_table";
 $conn =  mysqli_connect($servername, $username, $password, $database);
 
 mysqli_set_charset($conn, 'utf8mb4');

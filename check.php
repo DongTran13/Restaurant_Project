@@ -15,6 +15,9 @@
         if (empty($_POST['email'])){
             $erroEmail = "Please enter your email!";
         }
+        if(empty($erroEmail) && empty($erroTime)  && empty($erroTelephone) && empty($erroDate)  && empty($erroName)){
+            require_once ('insert.php');
+        }
     }
 
 ?>
