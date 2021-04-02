@@ -7,7 +7,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/drinkMenu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -67,20 +67,20 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner ">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-w-h-fix" src="img/drinkMenu/bg-img/img1.png" alt="First slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/drinkMenu/bg-img/img1.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block caption-fix">
                 
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/drinkMenu/bg-img/img2.png" alt="Second slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/drinkMenu/bg-img/img2.png" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/drinkMenu/bg-img/img3.png" alt="Third slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/drinkMenu/bg-img/img3.png" alt="Third slide">
         </div>
     </div>
     <div class="carousel-item">
-            <img class="d-block w-100 img-w-h-fix" src="img/drinkMenu/bg-img/img4.png" alt="Forth slide">
+            <img class="d-block w-100 img-w-h-fix" src="../img/drinkMenu/bg-img/img4.png" alt="Forth slide">
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
