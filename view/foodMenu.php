@@ -480,7 +480,6 @@
             <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
         </div>
     </div>
-
 </footer>
 </body>
 </html>
