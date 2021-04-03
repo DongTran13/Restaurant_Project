@@ -124,7 +124,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="bg-dark fixed-bottom">
+<footer class="bg-dark">
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
