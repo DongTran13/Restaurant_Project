@@ -68,10 +68,10 @@
             </div>
         </div>
     </div>
-    <div class="container-furid mt-3 ml-2 mb-3">
+    <div class="container mt-2 ">
         <div class="row">
             <div class="col-md-6">
-                <h3>ODER INFORMATION </h3>
+                <h3>RESTAURANT COMMENTS </h3>
                 <p>Please contact us immediately to receive many attractive offers for you!</p><br>
                   <form action="product" method="POST">
                       <div class="form-group">
@@ -81,44 +81,20 @@
                             <input class="form-control" type="email" name="email" id="emailly" placeholder="Email*">
                       </div> 
                       <div class="form-group">
-                          <input class="form-control" type="number" name="number" id="numberly" placeholder="Quantity*">
+                          <input class="form-control" type="number" name="number" id="numberly" placeholder="PhoneNumber*">
                       </div> 
                       <div class="form-group">
-                          <input class="form-control" type="text" name="product " id="namepro" placeholder="ProductName">
+                         <textarea class="form-control" name="commenter" id="" cols="10" rows="5" placeholder="Comment*"></textarea>
                       </div>
-                        <input class="btn btn-outline-primary" type="submit" value="ODER">
+                        <input class="btn btn-outline-primary" type="submit" value="SUBMIT">
                     </form> <br>
                     <p>Products purchased with an quantity of 4 or more products will be free ship
                         <br> FREE CONSULTATION : <a href="#">1900 63 68 09</a></p>
             </div>
-            <div class="col-md-6">
-                <h3>RESERVATION INFORMATION</h3> <br>
-                <form action="product" method="POST">
-                    <div class="form-group">
-                        <label for="people">Number Of People :</label>
-                        <input class="form-control" type="number" name="number" id="numberofpeople"  >
-                    </div>
-                    <div class="form-group">
-                        <label for="Day/Month/Year">Day/Month/Year :</label>
-                        <input class="form-control" type="date" name="date" id="dately" >
-                    </div>
-                    <div class="form-group">
-                        <label for="time">Time :</label>
-                        <input class="form-control" type="time" name="time" id="timely" >
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">PhoneNumber :</label>
-                        <input class="form-control" type="text" name="phone" id="phonely">
-                    </div>
-
-                    <input class="btn btn-outline-primary" type="submit" value="Reservation In Advance">
-                </form>
-            </div>
-            <div class="col-md-12 mt-3 ">
-                <div id="map-container-google-1" class="z-depth-1-half map-container" >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164.03952838859558!2d2.3281282613712317!3d48.86521871960524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb78543c3df56d106!2sRestaurant%20le%20Meurice%20Alain%20Ducasse!5e0!3m2!1svi!2s!4v1617144698759!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div id="map-container-google-1" class="z-depth-1-half map-container col-md-6" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d656.1600167120704!2d2.3279892431162144!3d48.865073570256406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f4f1e5bd141%3A0xb78543c3df56d106!2sRestaurant%20le%20Meurice%20Alain%20Ducasse!5e0!3m2!1svi!2s!4v1617481826442!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-            </div>
+            
         </div>
     </div>
 </div>
