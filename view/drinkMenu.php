@@ -410,5 +410,73 @@
         </div> 
     </div>
 </div>
+
+
+<!--footer-->
+<footer class="bg-dark">
+    <div class="container">
+        <div class="row p-3">
+            <div class="col text-center">
+                <img src="../img/logo.png" style="width: 10%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
+
+                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
+                <p class="text-white">Mail: apoloquestus@aduo.com</p>
+                <div class="col-12 social padding">
+                    <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#"><h5>OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
+                <h2 class="text-white">MULTI-VIEW ITEM</h2>
+                <a href="">
+                    <div class="row">
+                        <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
+                        <div class="col-6"><h5 class="text-white">130</h5></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr class="light-100">
+            <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
+        </div>
+    </div>
+    </div>
+    </div>
+</footer>
 </body>
 </html>

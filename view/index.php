@@ -62,7 +62,7 @@
                 <h1>RESTAURANT</h1>
                 <p>TASTY AND CRUNCHY</p>
                 <p>Every thing you need no fill you stomache is in here</p>
-                <button class="btn btn-hover"><a class="nav-link text-dark" href="#">VIEW OUR MENU</a></button>
+                <button class="btn btn-hover"><a class="nav-link text-dark" href="foodMenu.php">VIEW OUR MENU</a></button>
 
             </div>
         </div>
@@ -71,7 +71,7 @@
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>ENJOYABLE</h1>
                 <p>WINE AND DINE</p>
-                <button class="btn btn-hover"><a class="nav-link text-dark" href="#">VIEW OUR MENU</a></button>
+                <button class="btn btn-hover"><a class="nav-link text-dark" href="foodMenu.php">VIEW OUR MENU</a></button>
             </div>
         </div>
         <div class="carousel-item">
@@ -79,7 +79,7 @@
             <div class="carousel-caption d-none d-md-block caption-fix">
                 <h1>DELICIOUS</h1>
                 <p>CRISPY AND SOFT</p>
-                <button class="btn btn-hover"><a class="nav-link text-dark" href="#">VIEW OUR MENU</a></button>
+                <button class="btn btn-hover"><a class="nav-link text-dark" href="foodMenu.php">VIEW OUR MENU</a></button>
             </div>
         </div>
     </div>
@@ -142,12 +142,12 @@
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
-                
+                <img src="../img/logo.png" style="width: 10%">
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <img src="../img/logo.png" class="lg-footer">
+
                 <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
                 <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
@@ -163,7 +163,7 @@
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -171,7 +171,7 @@
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#"><h5>OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
+                        <a href="#"><h5 class="text-white" >OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -179,18 +179,18 @@
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
                     <div class="col-8">
-                        <a href="#"><h5>THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <a href="#"><h5 class="text-white" >THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <h2 class="text-white">MULTI-VIEW ITEM</h2>            
-                    <a href="">
+
                         <div class="row">
                             <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
                             <div class="col-6"><h5 class="text-white">130</h5></div>
                         </div>     
-                     </a>
+
                 </div>
             </div>
         </div>

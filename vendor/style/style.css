@@ -89,12 +89,7 @@ body{
     opacity: 0.6;
     cursor: pointer;
 }
-.logo-end{
-    width: 10%;
-}
-.lg-footer{
-  width: 20%;
-}
+
 .fa-facebook {
   width: 30px;
   height:30px;
@@ -112,9 +107,7 @@ body{
 .fa-youtube {
   color: #bb0000;
 }
-.social a {
-  
-}
+
 .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
