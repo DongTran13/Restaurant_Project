@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="../img/logo.png">
-    <link rel="stylesheet" href="../bs/bootstrap.min.css">
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../style/drinkMenu.css">
+    <link rel="stylesheet" href="../vendor/bs/bootstrap.min.css">
+    <script src="../vendor/js/jquery.min.js"></script>
+    <script src="../vendor/js/popper.min.js"></script>
+    <script src="../vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../vendor/style/drinkMenu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
