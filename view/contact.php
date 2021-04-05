@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
+    <?php require_once ('../model/check_contact.php')?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -73,20 +74,25 @@
             <div class="col-md-6">
                 <h3>RESTAURANT COMMENTS </h3>
                 <p>Please contact us immediately to receive many attractive offers for you!</p><br>
-                  <form action="product" method="POST">
+                  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>"
+                        method="post">
                       <div class="form-group">
                         <input class="form-control" type="text" name="name" id="namely" placeholder="FullName*">
+                          <span class="text-danger"><?php if (isset($erroName)) echo $erroName?></span>
                       </div> 
                       <div class="form-group">
-                            <input class="form-control" type="email" name="email" id="emailly" placeholder="Email*">
+                          <input class="form-control" type="email" name="email" id="emailly" placeholder="Email*">
+                          <span class="text-danger"><?php if (isset($erroEmail)) echo $erroEmail?></span>
                       </div> 
                       <div class="form-group">
-                          <input class="form-control" type="number" name="number" id="numberly" placeholder="PhoneNumber*">
+                          <input class="form-control" type="tel" name="telephone" id="numberly" placeholder="PhoneNumber*">
+                          <span class="text-danger"><?php if (isset($erroTelephone)) echo $erroTelephone?></span>
                       </div> 
                       <div class="form-group">
-                         <textarea class="form-control" name="commenter" id="" cols="10" rows="5" placeholder="Comment*"></textarea>
+                         <textarea class="form-control" name="comman" id="" cols="10" rows="5" placeholder="Comment*"></textarea>
+                          <span class="text-danger"><?php if (isset($erroNote)) echo $erroNote?></span>
                       </div>
-                        <input class="btn btn-outline-primary" type="submit" value="SUBMIT">
+                        <input class="btn btn-outline-primary" type="submit" name="save" value="SUBMIT">
                     </form> <br>
                     <p>Products purchased with an quantity of 4 or more products will be free ship
                         <br> FREE CONSULTATION : <a href="#">1900 63 68 09</a></p>
