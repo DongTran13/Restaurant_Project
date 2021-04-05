@@ -109,7 +109,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
-                <img src="../img/logo.png" class="lg-footer">
+                <img src="../img/logo.png" style="width: 20%">
                 <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
                 <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
