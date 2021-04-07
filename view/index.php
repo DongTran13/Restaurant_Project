@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../vendor/bs/bootstrap.min.css">
@@ -8,8 +10,7 @@
     <script src="../vendor/js/popper.min.js"></script>
     <script src="../vendor/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../vendor/style/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/font/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,13 +45,14 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="news.php">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>
+        <a class="btn btn-outline-secondary mr-3" href="login.php">ADMIN</a>
         <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
@@ -208,12 +210,10 @@
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <h2 class="text-white">MULTI-VIEW ITEM</h2>            
-
                         <div class="row">
                             <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
                             <div class="col-6"><h5 class="text-white">130</h5></div>
                         </div>     
-
                 </div>
             </div>
         </div>

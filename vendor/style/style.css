@@ -7,17 +7,13 @@
 .caption-fix{
     margin-bottom: 15%;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Syne Mono', monospace;
-}
+
 .small-img-set{
     width: 100%;
 }
 .bg-ingredients{
     background-color: #ebebeb;
 }
-
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
@@ -64,4 +60,5 @@ body{
   height:100%;
   width:100%;
   position:absolute;
-  }
+}
+

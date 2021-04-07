@@ -1,0 +1,15 @@
+.bg-Brown{
+	background-color: brown;
+	width: 100%;
+	height: 150px;
+}
+.img-logo{
+	width: 30px;
+	height: 50px;
+}
+.foodNews img{
+    width: 150px;
+    height: 150px;
+    border-radius: 45px;
+    border: 2px dashed black;
+}

@@ -15,7 +15,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <?php require_once ('../model/check_contact.php')?>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -57,57 +56,11 @@
         <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
-<script>
-    <!--icon-menu-->
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-</script>
-<div class="contact-content">
-    <div class="container-furid ">
-        <div class="row">
-            <div class="col-4">
 
-            </div>
-        </div>
-    </div>
-    <div class="container mt-2 ">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>RESTAURANT COMMENTS </h3>
-                <p>Please contact us immediately to receive many attractive offers for you!</p><br>
-                  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>"
-                        method="post">
-                      <div class="form-group">
-                        <input class="form-control" type="text" name="name" id="namely" placeholder="FullName*">
-                          <span class="text-danger"><?php if (isset($erroName)) echo $erroName?></span>
-                      </div> 
-                      <div class="form-group">
-                          <input class="form-control" type="email" name="email" id="emailly" placeholder="Email*">
-                          <span class="text-danger"><?php if (isset($erroEmail)) echo $erroEmail?></span>
-                      </div> 
-                      <div class="form-group">
-                          <input class="form-control" type="tel" name="telephone" id="numberly" placeholder="PhoneNumber*">
-                          <span class="text-danger"><?php if (isset($erroTelephone)) echo $erroTelephone?></span>
-                      </div> 
-                      <div class="form-group">
-                         <textarea class="form-control" name="comman" id="" cols="10" rows="5" placeholder="Comment*"></textarea>
-                          <span class="text-danger"><?php if (isset($erroNote)) echo $erroNote?></span>
-                      </div>
-                        <input class="btn btn-outline-primary" type="submit" name="save" value="SUBMIT">
-                    </form> <br>
-                    <p>Products purchased with an quantity of 4 or more products will be free ship
-                        <br> FREE CONSULTATION : <a href="#">1900 63 68 09</a></p>
-            </div>
-                <div id="map-container-google-1" class="z-depth-1-half map-container col-md-6" >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d656.1600167120704!2d2.3279892431162144!3d48.865073570256406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f4f1e5bd141%3A0xb78543c3df56d106!2sRestaurant%20le%20Meurice%20Alain%20Ducasse!5e0!3m2!1svi!2s!4v1617481826442!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            
-        </div>
-    </div>
-</div>
 
-<!-- Footer -->
+
+
+
 <footer class="bg-dark">
     <div class="container">
         <div class="row p-3">
@@ -173,3 +126,9 @@
 </footer>
 </body>
 </html>
+
+
+
+
+
+
