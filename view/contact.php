@@ -129,38 +129,39 @@
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <div class="row pb-3">
-                    <div class="col-4">
+                    <div class="col-3">
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
+                    <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
-                    <div class="col-4">
+                    <div class="col-3">
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
+                    <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white" >OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</h5></a>
+                        <h5 ><a class="text-white" href="#">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
-                    <div class="col-4">
+                    <div class="col-3">
                         <img src="../img/165548260_545214619800687_18765277717506597_n.jpg" alt="">
                     </div>
+                    <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white" >THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
                 <h2 class="text-white">MULTI-VIEW ITEM</h2>
-
                 <div class="row">
                     <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
                     <div class="col-6"><h5 class="text-white">130</h5></div>
                 </div>
-
             </div>
         </div>
     </div>

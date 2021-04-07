@@ -152,7 +152,7 @@
 </div>
 
 <!--footer-->
-<footer class="bg-dark mt-5">
+<footer class="bg-dark">
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
@@ -162,8 +162,7 @@
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
 
-                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a
-                    table, contact us by phone number: 090990099</p>
+                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
                 <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
                     <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
@@ -179,7 +178,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -188,7 +187,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <h5 ><a class="text-white" href="#">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -197,7 +196,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <a href="#"><h5 class="text-white">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</h5></a>
+                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
             </div>
@@ -207,15 +206,13 @@
                     <div class="col-6"><h5 class="text-white">SERVICE</h5></div>
                     <div class="col-6"><h5 class="text-white">130</h5></div>
                 </div>
-
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
             <hr class="light-100">
-            <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION
-                DEPARTMENT</h5>
+            <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
         </div>
     </div>
 </footer>
