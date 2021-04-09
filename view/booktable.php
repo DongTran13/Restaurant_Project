@@ -89,7 +89,7 @@
         </div>
         <div class="row ml-5 mr-5">
             <div class="col-8 m-auto">
-                <input type="number" name="table" min="1" max="100" class="form-control mt-3" placeholder="Table">
+                <input type="number" name="bookTable" min="1" max="100" class="form-control mt-3" placeholder="Table">
                 <span class="text-danger"><?php if (isset($erroTable)) echo $erroTable ?></span>
                 <input type="email" class="form-control mt-3" name="email" placeholder="EMAIL*">
                 <span class="text-danger"><?php if (isset($erroEmail)) echo $erroEmail ?></span>

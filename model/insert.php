@@ -6,7 +6,8 @@ if(isset($_POST["save"])){
     $telephone = mysqli_real_escape_string($conn, $_POST["telephone"]);
     $time = mysqli_real_escape_string($conn, $_POST["time"]);
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
-    $table = mysqli_real_escape_string($conn, $_POST["table"]);
+    $table = mysqli_real_escape_string($conn, $_POST["bookTable"]);
+
 
 
 
