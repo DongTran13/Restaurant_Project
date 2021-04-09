@@ -46,14 +46,13 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="news.php">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>
-        <a class="btn btn-outline-secondary mr-3" href="login.php">ADMIN</a>
         <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
@@ -78,6 +77,7 @@
                 <span class="text-danger"><?php if (isset($erroName)) echo $erroName ?></span>
                 <input type="date" name="day" class="form-control mt-3">
                 <span class="text-danger"><?php if (isset($erroDate)) echo $erroDate ?></span>
+
             </div>
             <div class="col-1"></div>
             <div class="col-5 ml-3 mt-3 mb-3">
@@ -89,6 +89,8 @@
         </div>
         <div class="row ml-5 mr-5">
             <div class="col-8 m-auto">
+                <input type="number" name="table" min="1" max="100" class="form-control mt-3">
+                <span class="text-danger"><?php if (isset($erroTable)) echo $erroTable ?></span>
                 <input type="email" class="form-control mt-3" name="email" placeholder="EMAIL*">
                 <span class="text-danger"><?php if (isset($erroEmail)) echo $erroEmail ?></span>
             </div>

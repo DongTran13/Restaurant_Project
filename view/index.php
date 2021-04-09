@@ -54,7 +54,6 @@
                 </li>
             </ul>
         </div>
-        <a class="btn btn-outline-secondary mr-3" href="login.php">ADMIN</a>
         <a class="btn btn-outline-success" href="booktable.php">BOOK TABLE</a>
     </div>
 </nav>
@@ -128,7 +127,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero expedita libero ad provident molestiae
                     quos harum nemo assumenda? Esse ducimus vero odit enim quas reprehenderit quis sequi repudiandae
                     voluptas nesciunt.</p>
-                <button class="btn btn-outline-dark mb-5">VIEW OUR MENU</button>
+                <a href="foodMenu.php" class="btn btn-outline-dark mb-5">VIEW OUR MENU</a>
             </div>
             <div class="col-6">
                 <img class="pt-5 small-img-set" src="../img/home1-main-image-4.jpg" alt="">
