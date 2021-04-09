@@ -63,29 +63,33 @@
     </div>
 </nav>
 <div class="container">
-    <label><h1>Guest List</h1></label>
-    <table>
+    <h1 class="text-center mb-5">Guest List</h1>
+    <table class="m-auto">
         <thead>
-        <tr class="table-bordered">
+        <tr class="table-bordered table-success">
+            <h5 class="text-center">Food is not simply food, it is also the sophistication of a chef</h5>
+            <h6 class="mb-5 text-center">being wholehearted in the chef's feelings to put on the food</h6>
             <th class="pl-3 pr-3">#</th>
             <th class="pl-3 pr-3">Name</th>
             <th class="pl-3 pr-3">Date</th>
             <th class="pl-3 pr-3">Telephone</th>
             <th class="pl-3 pr-3">Time</th>
             <th class="pl-3 pr-3">Email</th>
+            <th class="pl-3 pr-3">Table</th>
         </tr>
         </thead>
         <tbody>
         <?php
         if (count($result) > 0) {
             foreach ($result as $row) { ?>
-                <tr class="table-bordered">
+                <tr class="table-bordered ">
                     <td class="pl-3 pr-3"><?php echo $row['id']?></td>
                     <td class="pl-3 pr-3"><?php echo $row['name']?></td>
                     <td class="pl-3 pr-3"><?php echo $row['day']?></td>
                     <td class="pl-3 pr-3"><?php echo $row['telephone']?></td>
                     <td class="pl-3 pr-3"><?php echo $row['hour']?></td>
                     <td class="pl-3 pr-3"><?php echo $row['email']?></td>
+                    <td class="pl-3 pr-3"><?php echo $row['bookTable']?></td>
                     </td>
                 </tr>
             <?php }
@@ -96,7 +100,7 @@
     </table>
 
 </div>
-<footer class="bg-dark">
+<footer class="bg-dark" style="margin-top: 250px">
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
