@@ -68,7 +68,7 @@
           method="post">
         <div class="row mt-5">
             <div class="col-12">
-                <h1 class="text-center mt-3">BOOK TABLE</h1>
+                <h1 class="text-center mt-3 text-success">BOOK TABLE</h1>
             </div>
         </div>
         <div class="row ml-5 mr-5">
@@ -89,7 +89,7 @@
         </div>
         <div class="row ml-5 mr-5">
             <div class="col-8 m-auto">
-                <input type="number" name="table" min="1" max="100" class="form-control mt-3">
+                <input type="number" name="table" min="1" max="100" class="form-control mt-3" placeholder="Table">
                 <span class="text-danger"><?php if (isset($erroTable)) echo $erroTable ?></span>
                 <input type="email" class="form-control mt-3" name="email" placeholder="EMAIL*">
                 <span class="text-danger"><?php if (isset($erroEmail)) echo $erroEmail ?></span>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../vendor/bs/bootstrap.min.css">
@@ -11,7 +11,8 @@
     <script src="../vendor/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../vendor/style/style.css">
     <link rel="stylesheet" href="../vendor/font/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
@@ -64,43 +65,38 @@
 </nav>
 <div class="container">
     <h1 class="text-center mb-5">Guest List</h1>
-    <table class="m-auto">
-        <thead>
-        <tr class="table-bordered table-success">
-            <h5 class="text-center">Food is not simply food, it is also the sophistication of a chef</h5>
-            <h6 class="mb-5 text-center">being wholehearted in the chef's feelings to put on the food</h6>
-            <th class="pl-3 pr-3">#</th>
-            <th class="pl-3 pr-3">Name</th>
-            <th class="pl-3 pr-3">Date</th>
-            <th class="pl-3 pr-3">Telephone</th>
-            <th class="pl-3 pr-3">Time</th>
-            <th class="pl-3 pr-3">Email</th>
-            <th class="pl-3 pr-3">Table</th>
-        </tr>
-        </thead>
-        <tbody>
-        <?php
-        if (count($result) > 0) {
-            foreach ($result as $row) { ?>
-                <tr class="table-bordered ">
-                    <td class="pl-3 pr-3"><?php echo $row['id']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['name']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['day']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['telephone']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['hour']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['email']?></td>
-                    <td class="pl-3 pr-3"><?php echo $row['bookTable']?></td>
-                    </td>
-                </tr>
-            <?php }
-        }
-        ?>
-        </tbody>
+    <h5 class="text-center">Food is not simply food, it is also the sophistication of a chef</h5>
+    <h6 class="mb-5 text-center">being wholehearted in the chef's feelings to put on the food</h6>
+    <div class="table-bordered table-success row">
+        <div class="pl-3 pr-3 col">#</div>
+        <div class="pl-3 pr-3 col">Name</div>
+        <div class="pl-3 pr-3 col">Date</div>
+        <div class="pl-3 pr-3 col">Telephone</div>
+        <div class="pl-3 pr-3 col">Time</div>
+        <div class="pl-3 pr-3 col">Email</div>
+        <div class="pl-3 pr-3 col">Table</div>
+    </div>
 
-    </table>
+
+    <?php
+    if (count($result) > 0) {
+        foreach ($result as $row) { ?>
+            <div class="table-bordered row">
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['id'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['name'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['day'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['telephone'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['hour'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['email'] ?></div>
+                <div class="pl-3 pr-3 col table-bordered"><?php echo $row['bookTable'] ?></div>
+            </div>
+        <?php }
+    }
+    ?>
+
 
 </div>
-<footer class="bg-dark" style="margin-top: 250px">
+<footer class="bg-dark" style="margin-top: 132px">
     <div class="container">
         <div class="row p-3">
             <div class="col text-center">
@@ -110,7 +106,8 @@
         <div class="row">
             <div class="col-md-4 col-xl-4 col-sm-12 col-xs-12">
 
-                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a table, contact us by phone number: 090990099</p>
+                <p class="text-white">Our restaurant always has the best food, the best service for you - To reserve a
+                    table, contact us by phone number: 090990099</p>
                 <p class="text-white">Mail: apoloquestus@aduo.com</p>
                 <div class="col-12 social padding">
                     <a href="#" class="mr-3"><i class="fab fa-facebook"></i></a>
@@ -126,7 +123,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
+                        <h5><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -135,7 +132,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <h5 ><a class="text-white" href="#">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</a></h5>
+                        <h5><a class="text-white" href="#">OFFICIALLY OPENED A SPECIAL TEA ROOM, ROMANTIC SPACE</a></h5>
                     </div>
                 </div>
                 <div class="row pb-3">
@@ -144,7 +141,7 @@
                     </div>
                     <div class="col-1"></div>
                     <div class="col-8">
-                        <h5 ><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
+                        <h5><a class="text-white" href="#">THE RESTAUNRANT'S EXCLUSIVE SPECIALS</a></h5>
                     </div>
                 </div>
             </div>
@@ -160,7 +157,8 @@
     <div class="row">
         <div class="col-12">
             <hr class="light-100">
-            <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION DEPARTMENT</h5>
+            <h5 class="text-center text-white">&copy; COPPPYRIGHT T3H-US 2021. DEVICE BY INFORMATION-COMMUNICATION
+                DEPARTMENT</h5>
         </div>
     </div>
 </footer>
