@@ -13,3 +13,19 @@
     border-radius: 45px;
     border: 2px dashed black;
 }
+.fa-facebook {
+  font-size: 35px;
+  color: #3b5998;
+}
+.fa-twitter {
+  font-size: 35px;
+  color: #00aced; 
+}
+.fa-google-plus-g {
+  font-size: 35px;
+  color: #dd4b39;
+}
+.fa-instagram {
+  font-size: 35px;
+  color: #517fa4;
+}
